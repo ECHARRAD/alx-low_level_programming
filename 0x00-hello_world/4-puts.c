@@ -1,11 +1,10 @@
 #include <stdio.h>
 /**
- *main - entry point
- *Return: always 0 (success)
-*/
-
+ * main - A program that prints aline with puts function without using printf
+ * Return: 0
+ */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle")
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }

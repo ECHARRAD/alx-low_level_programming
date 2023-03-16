@@ -1,9 +1,12 @@
 #include <stdio.h>
 /**
- * *  * Description: main - Prints out a string to stdout. 
- * *   * Return: 0 if success.
- * */
+ *  *main-The main function prints out a text
+ *   *
+ *    *Return: always 0
+ *     */
+
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
+	puts(""Programming is like building a multilingual puzzle");
 	return (0);
+}

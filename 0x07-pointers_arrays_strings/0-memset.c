@@ -1,18 +1,18 @@
 #include <main.h>
 
 /* _memset - ironnou*/
-/*@x: pointer to char params*/
-/*@y: data to change*/
-/*@z: index*/
-/*Return: *x*/
+/*@s: pointer to char params*/
+/*@b: data to change*/
+/*@n: index*/
+/*Return: *s*/
 
-char *_memset(char *x, char y, unsigned int z)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
-	for (i = 0; i < z; i++)
+	for (i = 0; i < n; i++)
 	{
-		x[i] = b;
+		s[i] = b;
 	}
-	return (x);
+	return (s);
 }

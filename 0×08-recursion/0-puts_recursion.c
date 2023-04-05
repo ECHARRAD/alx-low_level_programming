@@ -2,7 +2,7 @@
 
 /**
  * _puts_recursion - print a string.
- * @str: is a poinetr to char
+ * @str: the pointer to char
  * Return: No.
  */
 

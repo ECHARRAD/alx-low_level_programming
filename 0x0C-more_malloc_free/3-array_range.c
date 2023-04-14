@@ -1,4 +1,4 @@
-ii#include "main.h"
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -14,7 +14,7 @@ int *array_range(int min, int max)
 	int *ar;
 	int i;
 
-	if (min > max)
+	if (max < min)
 		return (NULL);
 
 	ar = malloc(sizeof(*ar) * ((max - min) + 1));

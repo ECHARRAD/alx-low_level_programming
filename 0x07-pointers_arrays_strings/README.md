@@ -1,0 +1,1 @@
+MORE pointer arrays string

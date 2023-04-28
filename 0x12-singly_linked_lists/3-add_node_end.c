@@ -3,10 +3,10 @@
 #include "lists.h"
 
 /**
- *  * _strlen - returns length of string
- *   * @s: string
- *    * Return: length of string
- *    author: echarrad ahmed
+ * _strlen - returns length of string
+ * @s: string
+ * Return: length of string
+ * author: echarrad ahmed
  **/
 
 int _strlen(const char *s)
@@ -22,11 +22,11 @@ int _strlen(const char *s)
 }
 
 /**
- *  * add_node_end - adds a new node at the end of  list_t list
- *   * @head: head of linked list
- *    * @str: string to be used as data for node
- *     * Return: number of elements
- *      */
+ * add_node_end - adds a new node at the end of  list_t list
+ * @head: head of linked list
+ * @str: string to be used as data for node
+ * Return: number of elements
+ **/
 
 list_t *add_node_end(list_t **head, const char *str)
 {

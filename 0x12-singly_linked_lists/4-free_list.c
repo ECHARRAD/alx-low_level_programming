@@ -2,9 +2,11 @@
 #include "lists.h"
 
 /**
- *  * free_list - frees a list_t list
- *   * @head: head of a linked list
- *    * Return*/
+ * free_list - frees a list_t list
+ * @head: head of a linked list
+ * author: echarrad ahmed
+ * Return
+ **/
 
 void free_list(list_t *head)
 {

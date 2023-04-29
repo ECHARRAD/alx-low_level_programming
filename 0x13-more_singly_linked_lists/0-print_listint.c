@@ -1,22 +1,21 @@
-#nclude "lists.h"
+#include "lists.h"
 
 /**
- * print_listint - prints list elements
- * @h: pointer to list
- * Return: number of nodes
- * Author: ECHARRAD AHMED
- * mibonacci: operand to store elements
+ * print_listint - function that prints the elements of a list
+ * mibonacci: operand to store the elements
+ * @h: parameter
+ * Return: the number of noides
  */
 
-size_t print_listint(const listint_t *h);
+size_t print_listint(const listint_t *h)
 {
-	int mybirthday = 0;
+	int mibonacci = 0;
 
 	while (h)
 	{
 		printf("%d\n", h->n);
 		h = h->next;
-		mybirthday++;
+		mibonacci++;
 	}
-	return (mybirthday);
+	return (mibonacci);
 }

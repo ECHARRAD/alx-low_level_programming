@@ -5,7 +5,7 @@
  * index.
  * @n: unsigned long int input.
  * @index: index of the bit.
- *
+ * author ahmed acharrad
  * Return: value of the bit.
  */
 

@@ -17,7 +17,8 @@ unsigned int binary_to_uint(const char *b)
 	if (!b)
 		return (0);
 	dawood = 0;
-	for (ear = 0; b[ear] != '\0'; ear++);
+	for (ear = 0; b[ear] != '\0'; ear++)
+		;
 	for (ear--, bse_two = 1; ear >= 0; ear--, bse_two *= 2)
 	{
 		if (b[ear] != '0' && b[ear] != '1')

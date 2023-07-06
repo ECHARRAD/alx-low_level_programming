@@ -9,28 +9,32 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int dawood;
-	int ear;
-	int bse_two;
+	unsigned int ui;
+	int len, base_two;
 
 	if (!b)
 		return (0);
-	dawood = 0;
-	for (ear = 0; b[ear] != '\0'; ear++)
+
+	ui = 0;
+
+	for (len = 0; b[len] != '\0'; len++)
 		;
-	for (ear--, bse_two = 1; ear >= 0; ear--, bse_two *= 2)
+
+	for (len--, base_two = 1; len >= 0; len--, base_two *= 2)
 	{
-		if (b[ear] != '0' && b[ear] != '1')
+		if (b[len] != '0' && b[len] != '1')
 		{
 			return (0);
 		}
 
-		if (b[ear] & 1)
+		if (b[len] & 1)
 		{
-			dawood += bse_two;
+			ui += base_two;
 		}
 	}
-	return (dawood);
+
+	return(ui);
 }
